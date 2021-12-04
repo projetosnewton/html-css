@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>estrutura de um site</title>
+    <style>
+        body {
+           background-image: linear-gradient(to left, #5f5f83, #84d4e2);
+        }
+        h1 {
+            
+            color: rgb(243, 152, 170);
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            text-align: center;
+            height: 50px;
+            padding-top: 20px;
+        }
+        nav {
+            background-color: white;
+            margin: 1px;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+            margin: 10px;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: chartreuse;
+        }
+        header {
+            background-color: darkcyan;
+        }
+        p {
+            font-size: 1.5em;
+            text-align: justify;
+        }
+        footer {
+            background-color: #8585f0;
+            color: darkgray;
+            margin: -8px;
+            padding: 1px;
+        }
+        footer > p {
+            text-align: center;
+            color: black;
+        }
+        main > section > article > aside > p {
+            text-align: right;
+            font-weight: bolder;
+        }
+        button {
+            background-color: red;
+        }
+        aside {
+            background-color: #ecb7ad;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Esse e meu cabeçalho e menu de navegaçao</h1>
+        <nav>
+            <a href="#"><button>menu</button></a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h2>Paragrafo de exemplo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores molestias commodi consectetur optio recusandae harum! Sapiente placeat ullam fugiat quisquam sed! Aperiam quod magnam nisi earum hic fugit corporis aliquid.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, quaerat dignissimos voluptates ullam odio placeat similique illum unde mollitia iusto eum totam minus dicta, tempore maxime quidem culpa nobis omnis.</p>
+                <aside>
+                    <p>conteudo periferico ao paragrafo</p>
+                    
+                </aside>
+                <section>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, est alias quos ullam aspernatur perspiciatis nihil at quia odio laudantium, sapiente tenetur ut non dicta harum nulla praesentium veniam voluptatum.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, voluptate labore ad cum at facere tempora, aperiam accusantium nobis, incidunt magni voluptas minus. Commodi quas velit laborum ullam facere! Accusamus?</p>
+                        
+
+                </section>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Esse e meu rodape</p>
+    </footer>
+
+    
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-elementos</title>
+    <style>
+        body {
+            background-image:linear-gradient(to right, #07E2F2, #07E8B9);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color:#000000;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover { 
+            color: #ff0000;
+            text-decoration: underline;
+        }
+        a:visited {
+            color: #;
+        }
+        a:active {
+            color: #eaee16;
+        }
+        .especial::after {
+            content: ' ✓';
+        }
+        .especial::before {
+            content:'☺' ;
+        }
+        #ele:hover {
+            background-color: rgb(243, 159, 159);
+            width: 150px;
+        }
+     
+    </style>
+</head>
+<body>
+    <h1>Pseudo-Elementos</h1>
+    <form action="https://www.cursoemvideo.com/"> <button>AVANÇAR</button></form>
+    <ul>
+        <li class="especial"><a href="https://www.cursoemvideo.com/" target="_blank">canal curso em video</a></li>
+        <li class="especial"><a href="https://repositorio.educacao.sp.gov.br/#!/inicio" target="_blank">acesso ao repositorio</a></li>
+        <li id="ele"><a href="https://www.youtube.com/" target="_blank">canal do youtube</a></li>
+    </ul>
+    
+</body>
+</html>
