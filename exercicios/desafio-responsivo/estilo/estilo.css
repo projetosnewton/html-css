@@ -29,6 +29,7 @@
 body { 
     font-family: var(--fonte-padrao);
     background-color:var(--cor1);
+
 }
 main p {
     margin: 15px 0px;
